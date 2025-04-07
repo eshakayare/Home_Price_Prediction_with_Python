@@ -29,24 +29,23 @@ This project explores predictive modeling techniques to estimate the median hous
 * Categorical Variable: ocean_proximity encoded using dummy variables (excluding 'ISLAND' due to low frequency)
 
 🧪 Methodology
-* Exploratory Data Analysis (EDA)
-Univariate and bivariate analysis, log transformations for skewed variables, outlier removal using IQR, and correlation checks.
+* Exploratory Data Analysis (EDA) : Univariate and bivariate analysis, log transformations for skewed variables, outlier removal using IQR, and correlation checks.
 
 * Feature Engineering
 
-Dropped multicollinear features (total_bedrooms, households)
+-- Dropped multicollinear features (total_bedrooms, households)
 
-Removed spatial features (latitude, longitude)
+-- Removed spatial features (latitude, longitude)
 
 * Model Evaluation Metrics:
 
-Mean Squared Error (MSE)
+-- Mean Squared Error (MSE)
 
-Mean Absolute Error (MAE)
+-- Mean Absolute Error (MAE)
 
-Root Mean Squared Error (RMSE)
+-- Root Mean Squared Error (RMSE)
 
-R-squared (R²)
+-- R-squared (R²)
 
 🤖 Regression Models Applied
 Model	R² (Train)	R² (Test)	Notes
