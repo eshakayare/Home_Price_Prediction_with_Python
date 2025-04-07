@@ -49,14 +49,16 @@ This project explores predictive modeling techniques to estimate the median hous
 
 🤖 Regression Models Applied
 
-Model	 R² (Train) 	R² (Test)  	Notes
-Linear Regression	~0.54	~0.54	Simple, interpretable, good generalization
-Decision Tree	High	~0.20	Overfits, poor test performance
-Support Vector Regression (SVR)	Low	Low	High error, consistent across sets
-Random Forest	~0.84	~0.50	Strong train fit, weaker test generalization
-Tuned Random Forest	~0.66	~0.55	Balanced performance
-Gradient Boosting	~0.63	~0.54	Generalizes well, robust to overfitting
-Voting Regressor	Moderate	~0.55	Best overall performance
+| Model                      | R² (Train) | R² (Test) | Notes                                      |
+|---------------------------|------------|-----------|--------------------------------------------|
+| Linear Regression         | ~0.54      | ~0.54     | Simple, interpretable, good generalization |
+| Decision Tree             | High       | ~0.20     | Overfits, poor test performance            |
+| Support Vector Regression | Low        | Low       | High error, consistent across sets         |
+| Random Forest             | ~0.84      | ~0.50     | Strong train fit, weaker test generalization |
+| Tuned Random Forest       | ~0.66      | ~0.55     | Balanced performance                       |
+| Gradient Boosting         | ~0.63      | ~0.54     | Generalizes well, robust to overfitting    |
+| Voting Regressor          | Moderate   | ~0.55     | Best overall performance                   |
+
 🏆 Best Performing Models
 Linear Regression (for interpretability and stability)
 
