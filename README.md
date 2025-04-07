@@ -48,6 +48,7 @@ This project explores predictive modeling techniques to estimate the median hous
 -- R-squared (R²)
 
 🤖 Regression Models Applied
+
 Model	 R² (Train) 	R² (Test)  	Notes
 Linear Regression	~0.54	~0.54	Simple, interpretable, good generalization
 Decision Tree	High	~0.20	Overfits, poor test performance
