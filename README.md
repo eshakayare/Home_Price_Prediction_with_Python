@@ -2,10 +2,10 @@
 
 Home Price Prediction using Regression Analysis in Python
 
-📌 Project Overview
+📌 Project Overview : 
 This project explores predictive modeling techniques to estimate the median house value in California neighborhoods using census block group data. The focus is on identifying the most influential factors and selecting the best regression model for accurate, reliable predictions. The outcome offers powerful tools for real estate analysis, urban planning, and financial decision-making.
 
-💼 Business Question
+💼 Business Question : 
 "How can we accurately predict the median house value in California neighborhoods using census block group data, and which factors most influence these predictions?"
 
 🎯 Objectives
